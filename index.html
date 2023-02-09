@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="..." />
@@ -11,17 +11,25 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
-    <title>Scent Sangel</title>
-
+    <title>Scents Angel - Shop Luxury, Niche Perfumes for Men & Women</title>
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <!-- Daisy UI CSS-->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@2.50.0/dist/full.css"
       rel="stylesheet"
       type="text/css"
     />
-
     <!-- Tailwind Css -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
     <!-- custom css  -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- responsive  -->
@@ -36,10 +44,34 @@
           Complimentary Samples With Any Full Bottle Purchase.
         </p>
       </div>
+      <!-- banner  -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <!-- single slide start  -->
+          <div class="swiper-slide">
+            <div
+              class="hero h-screen"
+              style="background-image: url(./assets/img/banner/banner1.jpg)"
+            >
+              <div class="hero-overlay bg-opacity-60"></div>
+              <div class="hero-content text-center text-neutral-content">
+                <div class="max-w-md mt-52">
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single slide end  -->
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
     </header>
 
     <!-- Daisy UI JS-->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
     <!-- Custom Js -->
     <script src="./assets/js/app.js"></script>
   </body>
