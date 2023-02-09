@@ -1,0 +1,22 @@
+/* custom font  */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+/* common css  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #fb2e86;
+  --white-100-color: #fff6fb;
+  --white-200-color: #f1f0ff;
+  --white-1300-color: #eeeffb;
+  --magenta-color: #7e33e0;
+  --blue-color: #2f1ac4;
+  --green-color: #08d15f;
+  --dark-color: #000000;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
