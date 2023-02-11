@@ -225,15 +225,17 @@ img {
   border-top: 1px solid #e0e0e0;
 }
 /* new-arrials section end  */
-/* blog section start  */
-.blog {
+/* article section start  */
+.article {
   border-top: 1px solid #e0e0e0;
 }
-.blog .card img {
+.article .card img {
   transition: all 3s;
 }
-.blog .card:hover img {
+.article .card:hover img {
   transform: scale(1.1);
 }
 
-/* blog section end  */
+/* article section end  */
+/* footer  */
+
