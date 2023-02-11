@@ -225,3 +225,17 @@ img {
   border-top: 1px solid #e0e0e0;
 }
 /* new-arrials section end  */
+/* article section start  */
+.article {
+  border-top: 1px solid #e0e0e0;
+}
+.article .card img {
+  transition: all 3s;
+}
+.article .card:hover img {
+  transform: scale(1.1);
+}
+
+/* article section end  */
+/* footer  */
+
