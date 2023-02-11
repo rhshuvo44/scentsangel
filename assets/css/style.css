@@ -199,3 +199,24 @@ img {
 }
 
 /* product section end  */
+/* highlight section start  */
+
+.highlight .card-body :where(p) {
+  flex-grow: 0;
+}
+
+.btn-cart {
+  border: 1px solid #f5db8b;
+  color: #303030;
+}
+.btn-cart::before {
+  clip-path: inset(0 100% 0 0);
+  background: #f5db8b;
+}
+.btn-cart:hover:before {
+  clip-path: inset(0 0 0 0);
+}
+.btn-cart:hover {
+  color: #303030;
+}
+/* highlight section end  */
