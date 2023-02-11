@@ -60,6 +60,20 @@ img {
 .primary-btn:hover {
   color: #f5db8b;
 }
+.white-btn {
+  border: 1px solid #fff;
+  color: #303030;
+}
+.white-btn::before {
+  color: #303030;
+  background: #fff;
+}
+.white-btn:hover:before {
+  clip-path: inset(0 0 0 100%);
+}
+.white-btn:hover {
+  color: #fff;
+}
 /* banner section start */
 .swiper {
   width: 100%;
@@ -170,3 +184,39 @@ img {
   font-size: 20px;
 }
 /* arrival section end  */
+
+/* product section start  */
+
+.product .card img {
+  transition: all 3s;
+}
+.product .card:hover img {
+  transform: scale(1.1);
+}
+.product .card.image-full:before {
+  opacity: 0.5;
+  border-radius: 0px;
+}
+
+/* product section end  */
+/* highlight section start  */
+
+.highlight .card-body :where(p) {
+  flex-grow: 0;
+}
+
+.btn-cart {
+  border: 1px solid #f5db8b;
+  color: #303030;
+}
+.btn-cart::before {
+  clip-path: inset(0 100% 0 0);
+  background: #f5db8b;
+}
+.btn-cart:hover:before {
+  clip-path: inset(0 0 0 0);
+}
+.btn-cart:hover {
+  color: #303030;
+}
+/* highlight section end  */
