@@ -187,6 +187,12 @@ img {
 
 /* product section start  */
 
+.product .card img {
+  transition: all 3s;
+}
+.product .card:hover img {
+  transform: scale(1.1);
+}
 .product .card.image-full:before {
   opacity: 0.5;
   border-radius: 0px;
