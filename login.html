@@ -11,7 +11,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
-    <title>Contact – Scents Angel</title>
+    <title>Account – Scents Angel</title>
     <!-- swiper -->
     <link
       rel="stylesheet"
@@ -45,36 +45,45 @@
       </div>
     </header>
     <section class="contact px-10 py-20">
-      <h2
-        class="text-center text-[#303030] font-bold text-[20px] uppercase tracking-wide leading-[33px]"
-      >
-        contact
-      </h2>
-      <div class="card w-full lg:w-1/2 lg:mx-auto">
-        <div class="card-body">
-          <h2 class="card-title">contact us</h2>
+      <div class="card w-full lg:w-1/3 lg:mx-auto">
+        <div class="card-body text-center">
+          <h2
+            class="text-[#303030] font-bold text-[20px] uppercase tracking-wide leading-[33px]"
+          >
+            Login
+          </h2>
+          <p
+            class="text-[#303030] font-normal text-[14px] tracking-wide leading-[23px]"
+          >
+            Please enter your e-mail and password:
+          </p>
           <form action="">
-            <div class="flex flex-col lg:flex-row py-5 gap-5">
+            <input
+              type="email"
+              placeholder="Email"
+              class="input input-bordered w-full rounded-none my-5"
+            />
+            <div class="relative">
               <input
-                type="text"
-                placeholder="Your name"
-                class="input input-bordered w-full rounded-none"
+                type="password"
+                placeholder="Password"
+                class="input input-bordered w-full pr-16 rounded-none"
               />
-              <input
-                type="email"
-                placeholder="Your email"
-                class="input input-bordered w-full rounded-none"
-              />
+              <a
+                href="forgot.html"
+                class="text-[#303030] absolute top-4 right-4 font-normal text-[12px] tracking-wide leading-[20px]"
+              >
+                Forgot password?
+              </a>
             </div>
-            <textarea
-              placeholder="Your massage"
-              rows="8"
-              class="textarea textarea-bordered textarea-lg w-full rounded-none"
-            ></textarea>
-            <button type="submit" class="primary-btn w-full">
-              send message
-            </button>
+            <button type="submit" class="primary-btn w-full mt-5">login</button>
           </form>
+          <p
+            class="mt-5 text-[#595959] font-normal text-[14px] tracking-wide leading-[23px]"
+          >
+            Don't have an account?
+            <a class="font-bold" href="register.html"> Create one </a>
+          </p>
         </div>
       </div>
     </section>
