@@ -7,16 +7,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-:root {
-  --primary-color: #fb2e86;
-  --white-100-color: #fff6fb;
-  --white-200-color: #f1f0ff;
-  --white-1300-color: #eeeffb;
-  --magenta-color: #7e33e0;
-  --blue-color: #2f1ac4;
-  --green-color: #08d15f;
-  --dark-color: #000000;
-}
+
 body {
   font-family: "Josefin Sans", sans-serif;
 }
@@ -74,6 +65,36 @@ img {
 .white-btn:hover {
   color: #fff;
 }
+.product-card figure .front-img {
+  opacity: 1;
+  display: block;
+  transition: all 0.35s ease-in-out;
+}
+.product-card figure:hover .front-img {
+  opacity: 0;
+  transition: all 0.35s ease-in-out;
+}
+.product-card figure .back-img {
+  opacity: 0;
+  display: block;
+  transition: all 0.35s ease-in-out;
+}
+.product-card figure:hover .back-img {
+  opacity: 1;
+  transition: all 0.35s ease-in-out;
+}
+.product-card span {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.35s ease-in-out;
+  color: #595959;
+  display: inline-block;
+}
+
+.product-card:hover span {
+  opacity: 1;
+}
+/* common css end  */
 /* banner section start */
 .swiper {
   width: 100%;
@@ -129,36 +150,6 @@ img {
 /* banner section end */
 
 /* arrival section start  */
-
-.arrival .card figure .front-img {
-  opacity: 1;
-  display: block;
-  transition: all 0.35s ease-in-out;
-}
-.arrival .card figure:hover .front-img {
-  opacity: 0;
-  transition: all 0.35s ease-in-out;
-}
-.arrival .card figure .back-img {
-  opacity: 0;
-  display: block;
-  transition: all 0.35s ease-in-out;
-}
-.arrival .card figure:hover .back-img {
-  opacity: 1;
-  transition: all 0.35s ease-in-out;
-}
-.arrival .card span {
-  opacity: 0;
-  transform: translateY(10px);
-  transition: all 0.35s ease-in-out;
-  color: #595959;
-  display: inline-block;
-}
-
-.arrival .card:hover span {
-  opacity: 1;
-}
 
 .swiper-button-next,
 .swiper-button-prev {
