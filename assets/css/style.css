@@ -229,3 +229,15 @@ img {
 
 /* article section end  */
 /* footer  */
+/* Footer Bottles Page Start*/
+.product_image{
+  height: 500px;
+}
+.bottles h2{
+  font-family: "DIN Neuzeit Grotesk", sans-serif;
+  font-weight: 700;
+  line-height: 33px;
+  size: 20px;
+  color: rgb(48, 48, 48);
+}
+/* Footer Bottles Page End */
